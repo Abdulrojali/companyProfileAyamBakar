@@ -13,15 +13,15 @@
 </template>
 
 <script>
-import mieayamImg from '../assets/mieayam.jpeg'
-import imgPaketKatering from '../assets/paketKatering15.jpeg'
-import ayambakarImg from '../assets/ayam bakar.jpg'
-import ayambakarImgNasi from '../assets/ayambakar1.jpg'
-import ayamGoreng from '../assets/ayamgoreng.jpg'
-import ayamGorengNasi from '../assets/ayamgoreng1.jpg'
-import leleGoreng from '../assets/lelegoreng.jpg'
-import leleGorengNasi from '../assets/leleGoreng11.jpg'
-import nasiGoreng from '../assets/nasigoreng.jpg'
+import mieayamImg from '@/assets/mieayam.jpeg'
+import imgPaketKatering from '@/assets/paketKatering15.jpeg'
+import ayambakarImg from '@/assets/ayam bakar.jpg'
+import ayambakarImgNasi from '@/assets/ayambakar1.jpg'
+import ayamGoreng from '@/assets/ayamgoreng.jpg'
+import ayamgoreng1 from '@/assets/ayamgoreng1.jpg'
+import lelegoreng from '@/assets/lelegoreng.jpg'
+import lelegoreng11 from '@/assets/lelegoreng11.jpg'
+import nasiGoreng from '@/assets/nasigoreng.jpg'
 export default {
   data() {
     return {
@@ -54,7 +54,7 @@ export default {
           name: 'lele goreng + nasi',
           price: 18000,
           description: 'lele goreng plus nasi dengan harga terjangkau di tambah sambal dan lalapan',
-          img: leleGorengNasi,
+          img: lelegoreng11,
         },
         {
           name: 'ayam bakar + sambal + lalapan',
@@ -67,14 +67,14 @@ export default {
           price: 14000,
           description:
             'lele goreng tanpa nasi dengan harga terjangkau di tambah sambal dan lalapan',
-          img: leleGoreng,
+          img: lelegoreng,
         },
         {
           name: 'ayam goreng + sambal + lalapan',
           price: 17000,
           description:
             'ayam goreng tanpa nasi dengan harga terjangkau di tambah sambal dan lalapan',
-          img: ayamGorengNasi,
+          img: ayamgoreng1,
         },
         {
           name: 'paket katering',
